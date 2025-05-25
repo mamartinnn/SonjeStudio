@@ -19,7 +19,7 @@ public function register ()
 {
     return view('user.register');
 }
-)
+
 public function store(Request $request)
 {
     $request->validate([
